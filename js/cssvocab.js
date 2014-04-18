@@ -2,153 +2,153 @@ $(document).ready(function() {
   var vocab = [
     {
       'tokenName': 'comment',
-      'humanName': 'Comment',
-      'url': ''
+      'humanName': '注释（Comment）',
+      'url': '#cccc'
     },
     {
       'tokenName': 'statement',
-      'humanName': 'Statement',
+      'humanName': '声明（Statement）',
       'url': ''
     },
     {
       'tokenName': 'rule-set',
-      'humanName': 'Rule-set',
+      'humanName': '规则集（Rule-set）',
       'url': ''
     },
     {
       'tokenName': 'at-rule',
-      'humanName': 'At-rule',
+      'humanName': 'At 规则（At-rule）',
       'url': ''
     },
     {
       'tokenName': 'media-query',
-      'humanName': 'Media query',
+      'humanName': '媒体查询（Media query）',
       'url': ''
     },
     {
       'tokenName': 'media-query-list',
-      'humanName': 'Media query list',
+      'humanName': '媒体查询列表（Media query list）',
       'url': ''
     },
 
     {
       'tokenName': 'media-type',
-      'humanName': 'Media type',
+      'humanName': '媒体类型（Media type）',
       'url': ''
     },
     {
       'tokenName': 'expression',
-      'humanName': 'Expression',
+      'humanName': '表达式（Expression）',
       'url': ''
     },
     {
       'tokenName': 'media-feature',
-      'humanName': 'Media feature',
-      'url': ''
+      'humanName': '媒体特性（Media feature）',
+      'url': 'http://www.w3.org/html/ig/zh/wiki/Css3-mediaqueries#.E5.AA.92.E4.BD.93.E7.89.B9.E6.80.A7'
     },
     {
       'tokenName': 'block',
-      'humanName': 'Block',
+      'humanName': '块（Block）',
       'url': ''
     },
     {
       'tokenName': 'declaration-block',
-      'humanName': 'Declaration block',
+      'humanName': '声明块（Declaration block）',
       'url': ''
     },
     {
       'tokenName': 'selector',
-      'humanName': 'Selector',
+      'humanName': '选择器（Selector）',
       'url': ''
     },
     {
       'tokenName': 'simple-selector',
-      'humanName': 'Simple selector',
+      'humanName': '简单选择器（Simple selector）',
       'url': ''
     },
     {
       'tokenName': 'id-selector',
-      'humanName': 'ID selector',
+      'humanName': 'ID 选择器（ID selector）',
       'url': ''
     },
     {
       'tokenName': 'class-selector',
-      'humanName': 'Class selector',
+      'humanName': '类选择器（Class selector）',
       'url': ''
     },
     {
       'tokenName': 'attribute-selector',
-      'humanName': 'Attribute selector',
+      'humanName': '属性选择器（Attribute selector）',
       'url': ''
     },
     {
       'tokenName': 'pseudo-class',
-      'humanName': 'Pseudo-class',
+      'humanName': '伪类（Pseudo-class）',
       'url': ''
     },
     {
       'tokenName': 'pseudo-element',
-      'humanName': 'Pseudo-element',
+      'humanName': '伪元素（Pseudo-element）',
       'url': ''
     },
     {
       'tokenName': 'combinator',
-      'humanName': 'Combinator',
+      'humanName': '连接符/结合符（Combinator）',
       'url': ''
     },
     {
       'tokenName': 'descendant-combinator',
-      'humanName': 'Descendant combinator',
+      'humanName': '后代选择器（Descendant combinator）',
       'url': ''
     },
     {
       'tokenName': 'child-combinator',
-      'humanName': 'Child combinator',
+      'humanName': '子选择器（Child combinator）',
       'url': ''
     },
     {
       'tokenName': 'adjacent-sibling-combinator',
-      'humanName': 'Adjacent sibling combinator',
+      'humanName': '相邻选择器（Adjacent sibling combinator）',
       'url': ''
     },
     {
       'tokenName': 'general-sibling-combinator',
-      'humanName': 'General sibling combinator',
+      'humanName': '普通兄弟选择器（General sibling combinator）',
       'url': ''
     },
     {
       'tokenName': 'declaration',
-      'humanName': 'Declaration',
+      'humanName': '声明（Declaration）',
       'url': ''
     },
     {
       'tokenName': 'property',
-      'humanName': 'Property',
+      'humanName': '属性（Property）',
       'url': ''
     },
     {
       'tokenName': 'value',
-      'humanName': 'Value',
+      'humanName': '值（Value）',
       'url': ''
     },
     {
       'tokenName': 'function',
-      'humanName': 'Function',
+      'humanName': '函数（Function）',
       'url': ''
     },
     {
       'tokenName': 'keyword',
-      'humanName': 'Keyword',
+      'humanName': '关键字（Keyword）',
       'url': ''
     },
     {
       'tokenName': 'identifier',
-      'humanName': 'Identifier',
+      'humanName': '标识(biāo zhì)符（Identifier）',
       'url': ''
     },
     {
       'tokenName': 'string',
-      'humanName': 'String',
+      'humanName': '字符串（String）',
       'url': ''
     },
     {
@@ -158,32 +158,32 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'number',
-      'humanName': 'Number',
+      'humanName': '数值（Number）',
       'url': ''
     },
     {
       'tokenName': 'percentage',
-      'humanName': 'Percentage',
+      'humanName': '百分数（Percentage）',
       'url': ''
     },
     {
       'tokenName': 'length',
-      'humanName': 'Length',
+      'humanName': '长度（Length）',
       'url': ''
     },
     {
       'tokenName': 'unit',
-      'humanName': 'Unit',
+      'humanName': '单位（Unit）',
       'url': ''
     },
     {
       'tokenName': 'color',
-      'humanName': 'Color',
+      'humanName': '颜色（Color）',
       'url': ''
     },
     {
       'tokenName': 'vendor-prefix',
-      'humanName': 'Vendor prefix',
+      'humanName': '前缀（Vendor prefix）',
       'url': ''
     },
   ];

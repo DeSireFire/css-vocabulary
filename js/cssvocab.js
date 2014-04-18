@@ -67,6 +67,11 @@ $(document).ready(function() {
       'url': ''
     },
     {
+      'tokenName': 'universal-selector',
+      'humanName': '通用选择器（Universal selector）',
+      'url': ''
+    },
+    {
       'tokenName': 'id-selector',
       'humanName': 'ID 选择器（ID selector）',
       'url': ''

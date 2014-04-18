@@ -312,7 +312,8 @@ button:focus {
 	content: ",";
   color: #eee;
 }
-.css  .selector:last-of-type:after {
+.css  .selector:last-of-type:after,
+.css  .media-query-list:last-of-type:after {
 	content: " {";
 	white-space: pre;
   color: #eee;

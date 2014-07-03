@@ -7,7 +7,7 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'statement',
-      'humanName': '声明（Statement）',
+      'humanName': '语句（Statement）',
       'url': ''
     },
     {
